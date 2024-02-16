@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import Optional
 from contextlib import asynccontextmanager
 from database import create_tables, delete_tables
-
+print()
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
